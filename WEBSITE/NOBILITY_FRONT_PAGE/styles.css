@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Alfa Slab One", serif;
+}
+
+body {
+    background-color: #222831;
+}
+
+.img1 {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.h11 {
+    color: white;
+    text-align: center;
+    margin-top: -90px;
+}
+
+.a1 {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    align-items: flex-start; /* يجعل كل العناصر تصطف من الأعلى */
+    justify-content: space-between;
+    padding: 35px 20px;
+    margin-top: -75px;
+    margin-left: 1650px;
+}
+
+.a1:hover {
+    color: #000000;
+}
+
+.a2 {
+    padding: 35px 20px;
+    margin-top: -100px;
+    margin-left: 1450px;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.a2:hover {
+    color: black;
+}
+
+.hr1 {
+    opacity: 30%;
+    margin-top: -5px;
+}
+
+.pr1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    margin-top: -380px;
+    margin-left: 20px;
+    
+}
+
+.w1 {
+    color: white;
+    padding: 20px 45px 20px 20px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(60px);
+    padding: 30px 40px;
+    border-radius: 10px;
+}
+
+.log i {
+    color: black;
+    font-size: 18px;
+}
+
+.password2 i {
+    color: black;
+    font-size: 18px;
+}
+
+.hh12 {
+    text-align: center;
+    margin-right: 10px;
+    margin-top: -20px;
+}
+
+.login1 {
+    border-radius: 40px;
+    text-align: center;
+    min-height: 30px;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+    background-color: #34445c;
+}
+
+.password1 {
+    border-radius: 40px;
+    text-align: center;
+    min-height: 30px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #34445c;
+}
+
+.submit1 {
+    margin-left: 60px;
+    margin-top: 20px;
+    min-height: 30px;
+    min-width: 60px;
+    background-color: #34445c;
+    color: white;
+    border-radius: 10px;
+}
+
+.remember_bottom {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-left: 5px;
+    
+    
+}
+
+.img2 {
+    margin-top: -100px;
+    margin-left: 780px;
+}
+
+.h13 {
+    color: white;
+    margin-top: 170px;
+    margin-left: 920px;
+    font-size: 40px;
+}
+
+.a5 {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: #34445c;
+    margin-left: 810px;
+    padding: 20px 20px;
+    margin-top: -130px;
+}
+
+.a5:hover {
+    color: black;
+}
+
+.s1 {
+    display: flex;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    gap: 1rem;
+    margin-left: 1700px;
+    margin-top: 250px;
+}
+
+.s2 {
+    display: flex;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    gap: 1rem;
+    margin-left: 1300px;
+    margin-top: -25px;
+}
+
+.s3 {
+    display: flex;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    gap: 1rem;
+    margin-left: 600px;
+    margin-top: -25px;
+    
+}
+
+.s4 {
+    display: flex;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    gap: 1rem;
+    margin-left: 100px;
+    margin-top: -25px;
+}
+
+.s1:hover {
+    color: black;
+}
+
+.s2:hover {
+    color: black;
+}
+
+.s3:hover {
+    color: black;
+}
+
+.s4:hover {
+    color: black;
+}
+
+.hr2 {
+    opacity: 30%;
+    margin-top: 10px;
+}
+
+.h14 {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 7px;
+}
+
+.infoicon {
+    font-size: 70px;
+    color: white;
+    text-align: end;
+    margin-left: 180px;
+    margin-top: 50px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(60px);
+    padding: 20px 45px 20px 20px;
+    width: 400px;
+    height: 300px;
+}
+
+.hh15 {
+    color: white;
+    font-size: 60px;
+    margin-right: 80px;
+    margin-top: -80px;
+}
+
+.p1 {
+    color: white;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.support {
+    color: white;
+    margin-left: 1300px;
+    text-align: end;
+    font-size: 70px;
+    margin-top: -300px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(60px);
+    padding: 20px 45px 20px 20px;
+    width: 400px;
+    height: 300px;
+}
+
+.hh16 {
+    font-size: 52px;
+    margin-right: 89px;
+    margin-top: -75px;
+}
+
+.p2 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.butsup {
+    background-color: #34445c;
+    text-decoration: none;
+    color: white;
+    min-height: 60px;
+    min-width: 10px;
+    font-size: 25px;
+    margin-right: 110px;
+    margin-top: -40px;
+    border-radius: 10px;
+
+}
+
+.butsup:hover {
+    color: black;
+}
+
+@media (max-width: 1024px) {
+    .footer-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .h13 {
+        font-size: 32px;
+    }
+
+    .a5 {
+        font-size: 18px;
+    }
+
+    .infoicon, .support {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .h13 {
+        font-size: 26px;
+    }
+
+    .a5, .butsup {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .login1, .password1, .submit1 {
+        font-size: 14px;
+    }
+
+    .footer-links {
+        font-size: 16px;
+    }
+
+    .hh15, .hh16 {
+        font-size: 28px;
+    }
+
+    .p1, .p2 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .h11, .h13 {
+        font-size: 20px;
+    }
+
+    .header-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .submit1, .login1, .password1 {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .footer-links {
+        font-size: 14px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .infoicon, .support {
+        padding: 15px;
+    }
+}

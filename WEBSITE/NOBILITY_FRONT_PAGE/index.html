@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>login</title>
+</head>
+<body>
+    <header>
+        <img class="img1" src="NOBILITY.png" alt="NOBILITY LOGO" height="150px">
+        <h1 class="h11">NOBILITY CFW | نوبيليتي</h1>
+        <nav>
+            <ul>
+                <li><a class="a1" href="#loginpage">التسجيل الدخول</a></li>
+                <li><a class="a2" href="#socialmedia">التواصل الاجتماعي</a></li>
+            </ul>
+        </nav>
+
+        <hr class="hr1" />
+    </header>
+    <h1 class="h13">| تسجيل دخول</h1>
+    <img class="img2" src="NOBILITY.png" alt="NOBILITY LOGO" height="150px">
+         <div class="infoicon">
+  <i class="fa-solid fa-info"></i>
+  <h1 class="hh15">مــن نــحــن</h1>
+  <p class="p1">نوبيليتي : هي الامانة و بناء الثقة في المجتمع  و الاحترام و استمتاع بتجربة جميل و نعمل للتطوير و تحسين المجتمع</p>
+</div>
+<div class="support">
+  <i class="fa-solid fa-headset"></i>
+  <h1 class="hh16">الـدعـم الـفـنـي</h1>
+  <p class="p2">في حال تم مواجهتك اي مشكلة يرجى التوجى الى قسم الفني</p>
+  <a href="https://discord.com/channels/1379490989395415132/1380421483779588106" class="butsup" target="_blank">الدعم الفني</a>
+
+</div>
+    <div class="pr1">
+      <form action="" id="loginForm">
+    <div class="w1"><h1 class="hh12" id="loginpage">تسجيل دخول</h1><div class="log"><label for=""><input id="email" class="login1" type="email" placeholder="بريد إلكتروني"></label>
+    <i class='bx bx-user-pin'></i>
+</div>
+<div class="w2"><div class="password2"><input id="password" class="password1" type="password" placeholder="رمز السري">
+<i class='bx bxs-lock-open-alt' ></i>
+</div>
+<div class="w3"></div>
+<button class="submit1" id="loginLink" type="submit">تأكيد</button>
+
+<div class="remember_bottom"><label for=""><input id="remember" type="checkbox">تذكير الحساب</label>
+</div>
+
+</div>
+</div>
+</form>
+</div>
+
+
+  <a class="a5" href="https://discord.com/oauth2/authorize?client_id=1385005114829574196&response_type=code&redirect_uri=https%3A%2F%2Fdiscord.com%2Fchannels%2F1379490989395415132%2F1379490990683062475&scope=identify" target="_blank">
+  Discord تسجيل الدخول عبر 
+  <i class="fa-brands fa-discord"></i>
+</a>
+
+
+
+
+<script>
+    const form = document.getElementById("loginForm");
+    const emailInput = document.getElementById("email");
+    const passwordInput = document.getElementById("password");
+    const rememberCheckbox = document.getElementById("remember");
+
+    const validEmail = "test@example.com";
+    const validPassword = "123456";
+
+    const users = [
+  { email: "ahmad3411@icloud.com", password: "Aa100100" },
+];
+
+    window.onload = () => {
+      const savedEmail = localStorage.getItem("savedEmail");
+      if (savedEmail) {
+        emailInput.value = savedEmail;
+        rememberCheckbox.checked = true;
+      }
+    };
+
+    form.addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      const email = emailInput.value.trim();
+      const password = passwordInput.value;
+
+      if (email === validEmail && password === validPassword) {
+        alert("✅ تم تسجيل الدخول بنجاح");
+
+        if (rememberCheckbox.checked) {
+          localStorage.setItem("savedEmail", email);
+        } else {
+          localStorage.removeItem("savedEmail");
+        }
+
+        window.location.href = "home.html"; // عدل هذا إلى رابط الصفحة التالية
+      } else {
+        alert("❌ البريد أو كلمة السر غير صحيحة!");
+      }
+    });
+  </script>
+<section id="socialmedia">
+    <a class="s1" href="https://discord.gg/p9ZTCtVN5A" target="_blank">الديسكورد<i class="fa-brands fa-discord"></i></a>
+
+    <a class="s2" href="https://youtube.com/@nobilitycfw?si=6Jvi9adkqi-lqJZ1" target="_blank">اليوتيوب <i class="fa-brands fa-youtube"></i></a>
+
+    <a class="s3" href="" target="_blank">المتجر <i class="fa-solid fa-store"></i></a>
+
+    <a class="s4" href="" target="_blank">السيرفر <i class="fa-solid fa-server"></i></a>
+</section>
+
+<footer>
+  <hr class="hr2" />
+  <h1 class="h14">حقوق الطبع والنشر © 2025 NOBILITY CFW. جميع الحقوق محفوظة.</h1>
+</footer>
+</body>
+</html>
